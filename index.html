@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script>
+			const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+			if (currentTheme)
+				document.documentElement.setAttribute('data-theme', currentTheme);
+			setTimeout(() => document.body.classList.add("transitions-enabled"), 1000);
+		</script>
+
+		<title>Travja - Home</title>
+
+		
+
+		<link rel="modulepreload" href="/_app/start-5ede903b.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-8ff3792d.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-78be6323.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-69bd65fa.js">
+		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-0c3f824c.css">
+		<link rel="stylesheet" href="/_app/assets/Footer.svelte_svelte&type=style&lang-be90cc15.css">
+		<link rel="stylesheet" href="/_app/assets/pages/index.svelte-9e56bd6f.css">
+
+		<script type="module">
+			import { start } from "/_app/start-5ede903b.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/_app/pages/__layout.svelte-78be6323.js"),
+						import("/_app/pages/index.svelte-69bd65fa.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-nu2t2i"><div class="corner svelte-nu2t2i"><a href="https://kit.svelte.dev" class="svelte-nu2t2i"><img src="/_app/assets/svelte-logo-87df40b8.svg" alt="SvelteKit" class="svelte-nu2t2i"></a></div>
+
+    <nav class="svelte-nu2t2i"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-nu2t2i"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-nu2t2i"></path></svg>
+        <ul class="svelte-nu2t2i"><li class="svelte-nu2t2i active"><a sveltekit:prefetch href="/" class="svelte-nu2t2i">Home</a></li><li class="svelte-nu2t2i"><a sveltekit:prefetch href="/bugs" class="svelte-nu2t2i">Bug Tracker</a></li><li class="svelte-nu2t2i"><a sveltekit:prefetch href="/about" class="svelte-nu2t2i">About</a></li></ul>
+        <svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-nu2t2i"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-nu2t2i"></path></svg></nav>
+
+    <div class="corner svelte-nu2t2i"><a href="https://github.com/Travja" class="svelte-nu2t2i"><img src="/_app/assets/github-logo-0ac96ec2.svg" alt="GitHub" class="svelte-nu2t2i"></a></div>
+</header>
+
+<main class="svelte-eycadd">
+
+<section class="svelte-mn9hp2"><h1 class="svelte-mn9hp2"><div class="welcome svelte-mn9hp2"><picture><source srcset="svelte-welcome.webp" type="image/webp">
+                <img src="svelte-welcome.png" alt="Welcome" class="svelte-mn9hp2"></picture></div>
+
+        to my website!
+    </h1>
+
+    <h2>I have designed this website using
+        <a href="https://kit.svelte.dev" alt="SvelteKit"><strong>SvelteKit</strong></a></h2>
+</section></main>
+<footer class="svelte-gqn6ig"><hr>
+    <div class="links svelte-gqn6ig"><a class="no-background svelte-gqn6ig" href="https://github.com/Travja"><img src="/_app/assets/github-logo-0ac96ec2.svg" alt="GitHub"></a>
+        <a href="#" class="svelte-gqn6ig">Contact Me!</a>
+        
+
+
+<a href="https://discord.gg/VwrK3jj" style="--font-size:1em;--img-size:1.2em" class="svelte-18i8r50"><img src="/_app/assets/discord-e345a15d.svg" class="discord svelte-18i8r50" alt="Discord"> Join my <span class="highlight svelte-18i8r50">Discord</span>
+</a></div>
+    <div class="copy svelte-gqn6ig">© 2021 Travja</div>
+</footer>
+
+
+
+			
+		</div>
+	</body>
+</html>
